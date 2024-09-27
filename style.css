@@ -1,0 +1,59 @@
+body {
+    background-color: #323232;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+   
+  }
+  #content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+    
+  }
+
+
+table {
+   
+    margin: 20px;
+  }
+  td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    border: 1px solid black;
+  }
+  .circle {
+    color: red;
+  }
+ 
+  table {
+    border-collapse: collapse;
+    margin: 20px;
+    border: 5px solid transparent; /* Keine Außenlinie */
+  }
+  
+  td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 36px;
+    border: 5px solid white; /* Innenlinien */
+  }
+  
+  .circle {
+    color: red;
+  }
+  
+  .cross {
+    color: blue;
+  }
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}  
